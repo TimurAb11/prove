@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Собачий - Мир</title>
+    <link href="style/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на сайт о собаках!</h1>
+    </header>
+
+    <div class="burger" onclick="toggleMenu()">☰</div>
+    <nav class="menu" id="menu">
+        <a href="#home">Главная</a>
+        <a href="#breeds">Породы</a>
+        <a href="#care">Уход</a>
+        <a href="#food">Питание</a>       
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Форма авторизации</h2>
+            <form action="#" method="#">
+                <input type="mail" placeholder="Логин/Почта" name="login" required>
+                <input type="password" placeholder="Пароль" name="password" required>
+                <button type="button" onclick="handle()">Отправить</button>
+            </form>
+        </section>
+    
+        <section id="about-dogs">
+            <h2>О собаках</h2>
+            <p>Собаки — это верные и любящие друзья. Они бывают разных пород и характера...</p>
+        </section>
+    
+        <section id="breeds">
+            <h2>Популярные породы</h2>
+            <div class="container">
+                <div class="breeds">
+                    <ul>
+                        <li>Лабрадор</li>
+                        <img src="images/labrador.jpg" alt="Лабрадор" width="200">
+        
+                        <li>Немецкая овчарка</li>
+                        <img src="images/german_shepherd.jpg" alt="Немецкая овчарка" width="200">
+        
+                        <li>Французский бульдог</li>
+                        <img src="images/french_bulldog.jpg" alt="Французский бульдог" width="200">
+        
+                        <li>Йоркширский терьер</li>
+                        <img src="images/yorkshire_terrier.jpg" alt="Йоркширский терьер" width="200">
+        
+                        <li>Бигль</li>
+                        <img src="images/beagle.jpg" alt="Бигль" width="200">
+        
+                        <li>Мопс</li>
+                        <img src="images/pug.jpg" alt="Мопс" width="200">
+                    </ul>
+                </div>
+            </div>
+        
+        </section>
+    
+        <section id="care">
+            <h2>Уход за собаками</h2>
+            <div class="care-content">
+                <p>Уход за собакой требует времени и усилий, но он важен для здоровья и благополучия питомца. Важно следить за шерстью, когтями, зубами и ушами собаки, а также регулярно выгуливать и проводить профилактические осмотры у ветеринара.</p>
+                
+                <h3>Уход за шерстью</h3>
+                <img src="images/grooming.jpg" alt="Уход за шерстью" width="300">
+                <p>Регулярное вычесывание помогает избавиться от линяющей шерсти и предотвратить образование колтунов. Выбирайте щетки, подходящие для типа шерсти вашей собаки.</p>
+                
+                <h3>Стрижка когтей</h3>
+                <img src="images/nail_clipping.jpg" alt="Стрижка когтей" width="300">
+                <p>Когти собак должны быть подстрижены, чтобы избежать их разрастания и возможных травм. Делайте это осторожно, чтобы не задеть живую часть когтя.</p>
+                
+                <h3>Уход за зубами</h3>
+                <img src="images/teeth_cleaning.jpg" alt="Уход за зубами" width="300">
+                <p>Регулярная чистка зубов помогает предотвратить образование зубного камня и развитие заболеваний десен. Используйте специальную зубную пасту для собак.</p>
+                
+                <h3>Уход за ушами</h3>
+                <img src="images/ear_cleaning.jpg" alt="Уход за ушами" width="300">
+                <p>Уши собаки должны быть чистыми и сухими. Регулярно проверяйте их и при необходимости чистите специальными средствами для ухода за ушами.</p>
+            </div>
+        </section>
+    
+        <section id="food">
+            <h2>Питание собак</h2>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Все права защищены. Сайт о собаках.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js"></script>
+
+</body>
+</html>
